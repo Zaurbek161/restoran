@@ -69,3 +69,164 @@ color: #ce0c0c;
 .button:hover {
     background-color: #41e20b;
 }
+.header-down{
+    position: relative;
+}
+.header-title{
+    color: #FF7400;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    margin-top: 222px;
+    margin-bottom: 12px;
+
+
+}
+.header-suptitle{
+color: #FFFFFF;
+font-size: 18px;
+font-family:  "Open Sans", sans-serif;
+}
+
+.header-suptitle::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 56px;
+    
+}
+.header-suptitle:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 308px;
+    
+}
+.header-button{
+    background-color: #FF7400;
+    color: #fff;
+    padding: 14px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+
+}
+.header-button:hover {
+    background-color: #9e4205;
+}
+.cards-holder{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+        width: 349px;
+        box-shadow: 10px 10px 40px 20px #0000001A;
+        margin-right: 31px;
+        background-color: #fff;
+        margin-top: -124px;
+        padding: 10px 10px;
+    }
+.card-image{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.card-title span {
+    color: #FF7400;
+}
+.card-desc{
+   text-align: center;
+   font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(101, 99, 99);
+}
+
+.history{
+    margin-top: 166px;
+}
+
+.history-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+
+
+}
+.history-title span{
+    color: #FF7400;
+}
+.history-desc{
+    color: rgb(101, 99, 99);
+    font-size: 16px;
+    width: 444px;
+    text-align: center;
+}
+
+.history-number{
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.number-item{
+    margin-right: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(188, 144, 96);
+
+}
+.number-item span{
+    display: block;
+    color: #000;
+}
+.history-images{
+    position: relative;
+}
+.history-holder{
+    display: flex;
+    justify-content: space-between;
+}
+.images-1{
+    position: absolute;
+    z-index: 0;
+    top: -157px;
+    left: -294px;
+}
+
+.images-2{
+    position: absolute;
+    z-index: 999;
+    top: 3px;
+    left: -489px;
+}
+.images-3{
+    position: absolute;
+    z-index: 999;
+    top: 134px;
+    left: -220px;
+}
